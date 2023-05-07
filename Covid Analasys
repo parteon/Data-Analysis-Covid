@@ -1,0 +1,8 @@
+import pandas as pd
+df=pd.read_csv('covid.csv')
+df
+if df.isnull:
+    print('The Null Values=',df)
+else:
+    print('There are No Null Values')
+df['Country/Region'].nunique()
