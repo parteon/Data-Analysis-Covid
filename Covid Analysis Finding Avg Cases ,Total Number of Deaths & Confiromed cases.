@@ -1,1 +1,25 @@
-Covid Analysis Finding Avg Cases ,Total Number of Deaths & Confiromed cases.
+"Avg cases in Country"
+data = list(df['Confirmed'])
+data
+total =0 
+for i in data:
+    total = total+i
+int(total/len(data))
+
+
+"Total Number of deaths"
+data = list(df['Deaths'])
+data
+deaths =0 
+for k in data:
+    deaths = deaths+k
+deaths
+
+
+"Total Number of Confirmed cases"
+data = df['Confirmed']
+data
+confirmed =0 
+for j in data:
+    confirmed = confirmed+j
+confirmed
